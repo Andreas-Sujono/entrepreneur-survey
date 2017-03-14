@@ -1,0 +1,249 @@
+{ "title": "Entrepreneur Survey", 
+  "questions": [
+			{
+				"type": "scale",
+        "id": 1,
+				"question": "I will go to almost any length to avoid confrontation.",
+				"options": [
+					{
+            "id": 1,
+            "label": 1,
+						"value": 1,
+						"text": "Strongly disagree"
+					},
+					{
+            "id": 2,
+            "label": 2,
+            "value": 2
+          },
+					{
+            "id": 3,
+            "label": 3, 
+						"value": 3,
+						"text": "Neutral"
+					},
+					{
+            "id": 4,
+            "label": 4,
+            "value": 4
+          },
+					{
+            "id": 5,
+            "label": 5,
+						"value": 5,
+						"text": "Strongly agree"
+					}
+				]
+			},
+			{
+			"type": "scale",
+      "id": 2,
+			"question": "I am practical minded, logical person.",
+      "options": [
+        {
+          "id": 1,
+          "label": 1,
+          "value": 1,
+          "text": "Strongly disagree"
+        },
+        {
+          "id": 2,
+          "label": 2,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "label": 3, 
+          "value": 3,
+          "text": "Neutral"
+        },
+        {
+          "id": 4,
+          "label": 4,
+          "value": 4
+        },
+        {
+          "id": 5,
+          "label": 5,
+          "value": 5,
+          "text": "Strongly agree"
+        }
+      ]
+    },
+    {
+      "type": "scale",
+      "id": 3,
+      "question": "I always consider other people's feelings before acting.",
+      "options": [
+        {
+          "id": 1,
+          "label": 1,
+          "value": 1,
+          "text": "Strongly disagree"
+        },
+        {
+          "id": 2,
+          "label": 2,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "label": 3, 
+          "value": 3,
+          "text": "Neutral"
+        },
+        {
+          "id": 4,
+          "label": 4,
+          "value": 4
+        },
+        {
+          "id": 5,
+          "label": 5,
+          "value": 5,
+          "text": "Strongly agree"
+        }
+      ]
+    },
+    {
+      "type": "scale",
+      "id": 4,
+      "question": "Imagination is the key to future.",
+      "options": [
+        {
+          "id": 1,
+          "label": 1,
+          "value": 1,
+          "text": "Strongly disagree"
+        },
+        {
+          "id": 2,
+          "label": 2,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "label": 3, 
+          "value": 3,
+          "text": "Neutral"
+        },
+        {
+          "id": 4,
+          "label": 4,
+          "value": 4
+        },
+        {
+          "id": 5,
+          "label": 5,
+          "value": 5,
+          "text": "Strongly agree"
+        }
+      ]
+    },
+    {
+      "type": "scale",
+      "id": 5,
+      "question": "I find it hard to sit still longer than 30 minutes at a time.",
+      "options": [
+        {
+          "id": 1,
+          "label": 1,
+          "value": 1,
+          "text": "Strongly disagree"
+        },
+        {
+          "id": 2,
+          "label": 2,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "label": 3, 
+          "value": 3,
+          "text": "Neutral"
+        },
+        {
+          "id": 4,
+          "label": 4,
+          "value": 4
+        },
+        {
+          "id": 5,
+          "label": 5,
+          "value": 5,
+          "text": "Strongly agree"
+        }
+      ]
+    },
+    {
+      "type": "scale",
+      "id": 6,
+      "question": "I am most comfortable with slow, methodical progress.",
+      "options": [
+        {
+          "id": 1,
+          "label": 1,
+          "value": 1,
+          "text": "Strongly disagree"
+        },
+        {
+          "id": 2,
+          "label": 2,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "label": 3, 
+          "value": 3,
+          "text": "Neutral"
+        },
+        {
+          "id": 4,
+          "label": 4,
+          "value": 4
+        },
+        {
+          "id": 5,
+          "label": 5,
+          "value": 5,
+          "text": "Strongly agree"
+        }
+      ]
+    },
+    {
+      "type": "scale",
+      "id": 7,
+      "question": "I actively seek out social situations.",
+      "options": [
+        {
+          "id": 1,
+          "label": 1,
+          "value": 1,
+          "text": "Strongly disagree"
+        },
+        {
+          "id": 2,
+          "label": 2,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "label": 3, 
+          "value": 3,
+          "text": "Neutral"
+        },
+        {
+          "id": 4,
+          "label": 4,
+          "value": 4
+        },
+        {
+          "id": 5,
+          "label": 5,
+          "value": 5,
+          "text": "Strongly agree"
+        }
+      ]
+    }
+	]
+}
