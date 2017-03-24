@@ -1,0 +1,6 @@
+[submodule "es-client"]
+	path = es-client
+	url = git@gitlab.glints.com:yingcong/es-client.git
+[submodule "es-api"]
+	path = es-api
+	url = git@gitlab.glints.com:yingcong/es-api.git
