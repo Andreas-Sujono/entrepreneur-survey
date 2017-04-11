@@ -1,0 +1,44 @@
+version: '3'
+services:
+  es-client:
+    container_name: es-client
+    image: mhart/alpine-node
+    ports: 
+      - "2000:2000"
+    volumes:
+      - ./es-client:/app
+    working_dir: /app
+    command: npm start
+    environment:
+      HOST: 'localhost'
+      API_HOST: 'http://localhost:2001'
+
+  mongo:
+    container_name: es-mongo
+    image: mongo
+    ports: 
+      - "30000:27017"
+    volumes:
+      - ./mongod.conf:/etc/mongod.conf
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=sginnovate
+      - MONGO_INITDB_ROOT_PASSWORD=angguanyang
+    command: ["mongod", "-f", "/etc/mongod.conf"]
+
+  es-api:
+    container_name: es-api
+    image: mhart/alpine-node
+    ports:
+      - "2001:2001"
+    volumes:
+      - ./es-api:/app
+    environment:
+      - MONGO_USERNAME=sginnovate
+      - MONGO_PASSWORD=angguanyang
+      - MONGO_DB=admin
+      - MANDRILL_API_KEY=Y8tAqU3t9FX5gpn_MDTjZA
+      - ORIGINS=["http://localhost:2000"]
+    working_dir: /app
+    command: npm start
+    links:
+      - mongo
