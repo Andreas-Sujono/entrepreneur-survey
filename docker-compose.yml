@@ -38,6 +38,8 @@ services:
       - MONGO_DB=admin
       - MANDRILL_API_KEY=Y8tAqU3t9FX5gpn_MDTjZA
       - ORIGINS=["http://localhost:2000"]
+      - PRIVATE_KEY=/app/private.key
+      - PUBLIC_KEY=/app/public.key
     working_dir: /app
     command: npm start
     links:
